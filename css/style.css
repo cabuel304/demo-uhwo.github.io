@@ -12,6 +12,7 @@
 }
 
 .navbar {
+    font-family: Roboto Slab;
     /* Optional: Make the navbar background transparent */
     background-color: var(--bs-primary);
 
@@ -22,10 +23,11 @@
     width: 100%;
 
     /* Optional: Add inner spacing to the navbar */
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 footer {
+    font-family: Robot Slab;
     /* Change footer background color */
     background-color: var(--bs-primary);
     /* Optional: Change footer text color to white using variable */
@@ -59,8 +61,12 @@ h1 {
 
 /* PAGE: Home */
 .hero {
+    font-family: Roboto Slab;
+    -webkit-text-stroke: 0.001px white; /* Width and color of the stroke */
+
+    text-align: center;
     /* Add a background image for the hero section */
-    background: url(images/Home Screen.png);
+    background: url(../images/Home\ Screen.png);
 
     /* Adjust image size to cover the entire section */
     background-size: cover;
@@ -72,7 +78,7 @@ h1 {
     color: var(--bs-black);
 
     /* Optional: Add a full-height hero section */
-    height: 100vh;
+    height: 200vh;
     /* Optional: Add necessary props to center the text in the middle of the hero */
     display: flex;
     align-items: center;
@@ -80,7 +86,7 @@ h1 {
 }
 
 .Works {
-
+    font-family: Roboto Slab;
     /* Optional: Make the image cover the entire section */
     
     background-color: var(--bs-primary);
@@ -110,8 +116,10 @@ h1 {
     height: 250vh;
     /* Optional: Add necessary props to center the text in the middle of the hero */
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: left;
+    justify-content: space-around;
+    gap: 5rem;
 }
 
 
@@ -123,16 +131,35 @@ h1 {
     letter-spacing: -0.05rem;
     /* Optional: Adjust font-weight to all headings */
     font-weight: 700;
+    font-family: Roboto Slab;
 }
 
 h2 {
     /* Optional: Adjust font-size of heading 2 */
     font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;;
+    font-family: Roboto Slab;
+    text-align: center;
 }
 
 h5 {
     /* Optional: Adjust font-size of heading 2 */
     font-size: 1.3rem;
+
+    font-family: Roboto Slab;
+}
+
+p {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+}
+
+p2 {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    text-align: left;
+    position:
 }
 
 .display-1 {
