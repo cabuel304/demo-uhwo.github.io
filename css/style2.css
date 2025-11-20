@@ -26,6 +26,11 @@
     padding: 1.5rem;
 }
 
+
+.navbar a {
+  color: white;
+}
+
 footer {
     font-family: Robot Slab;
     /* Change footer background color */
@@ -85,44 +90,22 @@ h1 {
     justify-content: center;
 }
 
-.Works {
-    font-family: Roboto Slab;
-    /* Optional: Make the image cover the entire section */
-    
-    background-color: var(--bs-primary);
-
-    background-size: cover;
-
-    /* Optional: Color text white */
-    color: var(--bs-white);
-
-    height: 100vh;
-    /* Optional: Add necessary props to center the text in the middle of the hero */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.Model-Creature {
+ background-color: #63404D;
+ height: 100cap;
 }
 
-.about-me {
-     /* Optional: Make the image cover the entire section */
-    
-    background-color: var(--secondary-color);
-
-    background-size: cover;
-
-    /* Optional: Color text white */
-    color: var(--bs-white);
-
-    height: 250vh;
-    /* Optional: Add necessary props to center the text in the middle of the hero */
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 5rem;
+.Movie-Poster {
+background-color: #406360;
 }
 
+.Short-Story {
+background-color: #63404D;
+}
 
+.Logo-Creation {
+    background-color: #406360;
+}
 /********************************
 Typography
 **********************************/
@@ -142,18 +125,19 @@ h2 {
     letter-spacing: 0.1rem;;
     font-family: Roboto Slab;
     text-align: center;
+    color: white;
 }
 
-h5 {
-    /* Optional: Adjust font-size of heading 2 */
-    font-size: 1.3rem;
+h3 {
 
-    font-family: Roboto Slab;
+
 }
 
 p {
     font-family: "Roboto Slab", serif;
     font-style: normal;
+    color: white;
+    text-align: left;
 }
 
 p2 {
@@ -161,4 +145,9 @@ p2 {
     font-style: normal;
     text-align: left;
     position:
+}
+
+.Creature {
+
+
 }
