@@ -26,6 +26,12 @@
     padding: 1.5rem;
 }
 
+
+.navbar a {
+  color: white;
+}
+
+
 footer {
     font-family: Robot Slab;
     /* Change footer background color */
@@ -44,6 +50,7 @@ footer .footer-social {
 }
 
 h1 {
+    margin: 2cap;
     font-size: 6rem;
     border-width: 1cap;
     border-color: white;
@@ -56,6 +63,9 @@ h1 {
     font-weight: 500;
     /* Optional: Remove primary button outline */
     border: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 1cap;
 }
 
 
@@ -96,11 +106,26 @@ h1 {
     /* Optional: Color text white */
     color: var(--bs-white);
 
-    height: 100vh;
+    height: 150vh;
     /* Optional: Add necessary props to center the text in the middle of the hero */
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5rem;
+    }
+
+
+    .card-img-top {
+    width: 300px;
+    display: flex;
+    }
+
+.card-body{
+    margin-top: 2cap;
+}
+
+.card-text{
+    margin-top: 2cap;
 }
 
 .about-me {
@@ -122,6 +147,25 @@ h1 {
     gap: 5rem;
 }
 
+.Cory-Abuel{
+    max-width: 750px;
+object-fit: cover;
+vertical-align: middle;
+gap: 5rem;
+}
+
+.me{
+    margin-bottom: 50cap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.me2{
+
+    margin-bottom: 100cap;
+    text-align: left;
+    
+}
 
 /********************************
 Typography
@@ -132,34 +176,47 @@ h1 {
     /* Optional: Adjust font-weight to all headings */
     font-weight: 700;
     font-family: Roboto Slab;
+    justify-content: space-around;
 }
 
 h2 {
     /* Optional: Adjust font-size of heading 2 */
     font-size: 2rem;
     font-weight: 700;
+    margin: 4cap;
     letter-spacing: 0.1rem;;
     font-family: Roboto Slab;
     text-align: center;
+    justify-content: space-around;
 }
 
 h5 {
     /* Optional: Adjust font-size of heading 2 */
     font-size: 1.3rem;
-
+    font-weight: 700;
+    letter-spacing: 0.1rem;
     font-family: Roboto Slab;
+    justify-content: space-around;
 }
 
 p {
     font-family: "Roboto Slab", serif;
     font-style: normal;
+    justify-content: space-around;
 }
 
 p2 {
     font-family: "Roboto Slab", serif;
     font-style: normal;
     text-align: left;
-    position:
+    justify-content: space-around;
+}
+
+p3 {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    text-align: left;
+    justify-content: space-around;
 }
 
 .display-1 {
@@ -186,7 +243,7 @@ p2 {
 }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
+@media (min-width: 375px) {
     /* Optional: Customize responsive style for display-1 on small devices and larger */
     .display-1 {
         font-size: 4rem;
