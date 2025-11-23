@@ -144,28 +144,16 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    gap: 5rem;
 }
 
 .Cory-Abuel{
     max-width: 750px;
 object-fit: cover;
 vertical-align: middle;
-gap: 5rem;
+gap: 1rem;
+float: left;
 }
 
-.me{
-    margin-bottom: 50cap;
-    display: flex;
-    justify-content: space-around;
-}
-
-.me2{
-
-    margin-bottom: 100cap;
-    text-align: left;
-    
-}
 
 /********************************
 Typography
@@ -183,11 +171,11 @@ h2 {
     /* Optional: Adjust font-size of heading 2 */
     font-size: 2rem;
     font-weight: 700;
-    margin: 4cap;
     letter-spacing: 0.1rem;;
     font-family: Roboto Slab;
     text-align: center;
     justify-content: space-around;
+    height: 2cap;
 }
 
 h5 {
@@ -210,6 +198,7 @@ p2 {
     font-style: normal;
     text-align: left;
     justify-content: space-around;
+    float: right;
 }
 
 p3 {
@@ -217,6 +206,7 @@ p3 {
     font-style: normal;
     text-align: left;
     justify-content: space-around;
+    float: right;
 }
 
 .display-1 {
