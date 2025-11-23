@@ -87,24 +87,37 @@ h1 {
     /* Optional: Add necessary props to center the text in the middle of the hero */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .Model-Creature {
  background-color: #63404D;
- height: 100cap;
+ height: 120cap;
+ justify-content: space-around;
+ display: grid;
 }
 
 .Movie-Poster {
 background-color: #406360;
+height: 175cap;
+vertical-align: middle;
+justify-content: space-around;
+display: grid;
 }
 
 .Short-Story {
 background-color: #63404D;
+height: 300cap;
+justify-content: space-around;
+display: grid;
 }
 
 .Logo-Creation {
-    background-color: #406360;
+background-color: #406360;
+height: 260cap;
+align-items: center;
+justify-content: space-around;
+float: left;
 }
 /********************************
 Typography
@@ -126,11 +139,17 @@ h2 {
     font-family: Roboto Slab;
     text-align: center;
     color: white;
+    justify-content: space-around;
 }
 
-h3 {
-
-
+.Heading-2 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;;
+    font-family: Roboto Slab;
+    text-align: center;
+    justify-content: space-around;
+    height: 10cap;
 }
 
 p {
@@ -138,16 +157,40 @@ p {
     font-style: normal;
     color: white;
     text-align: left;
+    justify-content: space-around;
 }
 
 p2 {
     font-family: "Roboto Slab", serif;
     font-style: normal;
     text-align: left;
-    position:
+    justify-content: space-around;
 }
 
 .Creature {
+justify-content: space-around;
+}
 
+.Title {
+max-width: 1000px;
+object-fit: cover;
+vertical-align: middle;
+display: flex;
+justify-content: space-around;
+}
 
+.Crystal {
+max-width: 1000px;
+object-fit: cover;
+vertical-align: middle;
+display: flex;
+justify-content: space-around;
+margin-top: 20%;
+}
+
+.Logo-Paragraphs {
+    margin-top: 3cap;
+}
+
+.card-text {
 }
